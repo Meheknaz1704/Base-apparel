@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{ 
+    background-image: url(./images/bg-pattern-desktop.svg);
+    width: 60vw;
+    height: 100vh;
+    background-size: cover;
+
+    
+}
+ .container1{ 
+    width: 60vw;
+    height: 100%;
+    
+} 
+
+.container{
+    display: flex; 
+    
+    
+}
+.hero img{
+    width: 40vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.base{
+    padding: 60px 0 100px 100px; 
+}
+ .coming{ 
+    text-transform: uppercase;
+    margin:  0 0 30px 105px;
+    letter-spacing: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+
+}
+.coming span{
+    color: #c49b9b;
+    font-weight: 300;
+}
+
+
+
+.para{
+    color: #c49b9b;
+    margin-left: 105px;
+    line-height: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.btn input{
+    margin-left: 105px;
+    margin-top: 30px;
+    width: 400px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 30px; 
+    border:  1px  solid#f0e5e7;
+    
+
+}
+.btn ::placeholder{
+    color:#d6a5a7;
+    letter-spacing: 1px;
+}
+button{
+   width: 70px; height: 40px;border-radius:30px ;
+   border: none;
+   background-image:linear-gradient(#e3cfd0,#db7174);
+   cursor: pointer;
+   position: relative;
+   right: 40px;
+   top: 4px;
+}
+input:focus{
+    border: 2px solid #da9a9d;
+    outline: none;
+    box-shadow: 0 0 5px rgb(231, 189, 196) ;
+}
