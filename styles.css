@@ -4,19 +4,17 @@
     box-sizing: border-box;
 }
 
-.container{ 
+.container1{ 
     background-image: url(./images/bg-pattern-desktop.svg);
-    width: 60vw;
-    height: 100vh;
     background-size: cover;
+    background-position: center center;
+    width: 58.5vw;
+    height: 100vh;
+
 
     
 }
- .container1{ 
-    width: 60vw;
-    height: 100%;
-    
-} 
+
 
 .container{
     display: flex; 
@@ -24,9 +22,10 @@
     
 }
 .hero img{
+    
     width: 40vw;
-    height: 100vh;
-    background-size: cover;
+   height: 99vh;
+
 }
 
 .base{
