@@ -7,12 +7,8 @@
 .container1{ 
     background-image: url(./images/bg-pattern-desktop.svg);
     background-size: cover;
-    background-position: center center;
-    width: 700px;
+    width: 60vw;
     height: 100vh;
-    margin-top: 0;
-
-
     
 }
 
@@ -20,10 +16,9 @@
 .container{
     display: flex; 
     
-    
 }
 .hero img{
-    
+    background-size: cover; 
     width: 40vw;
    height: 100vh;
 
